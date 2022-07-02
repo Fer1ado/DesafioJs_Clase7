@@ -5,7 +5,7 @@ function generarCarrito(){
     let carroVentas = JSON.parse(localStorage.getItem("DatosVentas"))
        carroVentas?.forEach(tarj =>{
         let div = document.createElement("div")
-        div.className = "card my-3 mx-2 align-items-center rounded"
+        div.className = "card my-4 mx-3 align-items-center rounded"
         div.setAttribute("data-tilt", "")
         div.setAttribute("data-tilt-scale", "1.07")
         div.setAttribute("data-tilt-glare", "")

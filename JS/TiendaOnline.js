@@ -6,7 +6,7 @@ mostrarCatalogo()
 function mostrarCatalogo(){
     piezasEnstock.forEach(tarj =>{
         let div = document.createElement("div")
-        div.className = "tarjeta card my-3 mx-2 pepe"
+        div.className = "tarjeta card my-4 mx-3 pepe"
         div.setAttribute("data-tilt", "")
         div.setAttribute("data-tilt-scale", "1.07")
         div.setAttribute("data-tilt-glare", "")
