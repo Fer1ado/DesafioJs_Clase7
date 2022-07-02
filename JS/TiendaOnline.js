@@ -40,7 +40,7 @@ function cargarCarro(id){
             gravity: "bottom", 
             position: "right", 
             style: {
-              background: "radial-gradient(circle, rgba(0,105,217,0.4773964761685925) 0%, rgba(0,105,217,1) 100%)",
+            background: "radial-gradient(circle, rgba(0,105,217,0.4773964761685925) 0%, rgba(0,105,217,1) 100%)",
             },
             }).showToast();   
 }
@@ -50,10 +50,10 @@ function cargarCarro(id){
 actualizarNro()
 
 function actualizarNro(){
-    let funcionaMierda = JSON.parse(localStorage.getItem("DatosVentas"));
-    if(funcionaMierda===null) {
+    let contadorItems = JSON.parse(localStorage.getItem("DatosVentas"));
+    if(contadorItems===null) {
         contador1.innerText="0"
-    }else{contador1.innerText = `${funcionaMierda?.length}`}
+    }else{contador1.innerText = `${contadorItems?.length}`}
 }
 
 
