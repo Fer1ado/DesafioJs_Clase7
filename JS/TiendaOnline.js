@@ -8,7 +8,11 @@ function mostrarCatalogo(){
         let div = document.createElement("div")
         div.className = "tarjeta card my-3 mx-2 pepe"
         div.setAttribute("data-tilt", "")
-        div.style = "width: 18rem; box-shadow: rgba(0, 0, 0, 0.4) 3px 3px 20px; transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1); will-change: transform; transform-style: preserve-3d; perspective: 1000px;"
+        div.setAttribute("data-tilt-scale", "1.07")
+        div.setAttribute("data-tilt-glare", "")
+        div.setAttribute("data-tilt-max-glare", "0.5")
+        div.setAttribute("data-tilt-axis", "y")
+        div.style = "width: 18rem; box-shadow: rgba(0, 0, 0, 0.4) 3px 3px 20px; transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);"
         div.innerHTML = `
                             <img src="${tarj.imagen}" class="card-img-top" alt="..."/>
                                 <div class="card-body d-flex flex-column align-items-center">
