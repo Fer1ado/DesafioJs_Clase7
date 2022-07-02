@@ -11,7 +11,6 @@ function mostrarCatalogo(){
         div.setAttribute("data-tilt-scale", "1.07")
         div.setAttribute("data-tilt-glare", "")
         div.setAttribute("data-tilt-max-glare", "0.5")
-        div.setAttribute("data-tilt-axis", "y")
         div.style = "width: 18rem; box-shadow: rgba(0, 0, 0, 0.4) 3px 3px 20px; transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);"
         div.innerHTML = `
                             <img src="${tarj.imagen}" class="card-img-top" alt="..."/>

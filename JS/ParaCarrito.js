@@ -10,7 +10,6 @@ function generarCarrito(){
         div.setAttribute("data-tilt-scale", "1.07")
         div.setAttribute("data-tilt-glare", "")
         div.setAttribute("data-tilt-max-glare", "0.5")
-        div.setAttribute("data-tilt-axis", "y")
         div.style = "width: 18rem;  box-shadow:3px 3px 20px rgba(0, 0, 0, 0.4);"
             div.innerHTML= `<img src="${tarj.imagen}" class="card-img-top" alt="..."/>
                                 <div class="card-body d-flex flex-column align-items-center">
