@@ -50,7 +50,7 @@ function cargarCarro(id){
 actualizarNro()
 
 function actualizarNro(){
-    let contadorItems = JSON.parse(localStorage.getItem("DatosVentas"));
+    let contadorItems = JSON.parse(localStorage.getItem("DatosVentas")) 
     if(contadorItems===null) {
         contador1.innerText="0"
     }else{contador1.innerText = `${contadorItems?.length}`}

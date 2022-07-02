@@ -8,7 +8,9 @@ const contador2 =  document.getElementById("contador2")
 const listarProd = document.getElementById("listarProd")
 const BtnBuscar = document.getElementById("BtnBuscar")
 const listarBusqueda = document.getElementById("listarBusqueda")
-
+const desplegarCarga = document.getElementById("desplegar_formulario")
+const botonBorrar = document.getElementById("botonBorrar")
+const botonBuscar = document.getElementById("botonBuscar")
 
 
 class PiezasOfrecidas {
